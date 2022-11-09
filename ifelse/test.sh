@@ -1,8 +1,3 @@
-read -p "enter month: " mon;
-
-if [ $mon == "mar" -o $mon == "apr" ]
-then 
-	echo "True"
-else 
-	echo "False"
-fi
+a=10;
+b=$(($a/2));
+echo $b;
